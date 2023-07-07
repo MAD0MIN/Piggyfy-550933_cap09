@@ -1,0 +1,324 @@
+/* ------ BASE DO CSS ------ */
+body{
+    
+    margin: 0;
+    background: linear-gradient(162.52deg, #5CC866 -3.71%, #30D941 -3.71%, #0E3E13 100.67%);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Orbit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: inline-grid;
+    width: 50%;
+    max-width: 500px;
+    padding: 50px;
+    /* height: 80%; */
+    justify-items: center;
+    background-color: #249B46;
+    border-radius: 45px;
+    
+}
+
+main h1{
+    display: flex;
+    color: white;
+    font-size: 40pt;
+    margin: 0;
+}
+#imagem {
+    display:flex;
+    width: 300px;
+}
+
+#link1{
+    display: flex;
+    color: #1C9228;
+    text-decoration: none;
+    border: 2px solid #92E3A9;
+    background-color: #92E3A9;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+article{
+    padding: 10px;
+}
+#link2{
+    display:flex;
+    text-decoration: none;
+    color: white;
+}
+
+#link1:hover{
+    background-color: transparent;
+    color: #92E3A9;
+}
+#link2:hover{
+    text-decoration: underline;
+    color: #92E3A9;
+}
+
+
+/* ------ RESPONSIVIDADE ATÉ 950PX ------ */
+@media only screen and (max-width:950px){
+    body{
+    
+        margin: 0;
+        background: linear-gradient(162.52deg, #5CC866 -3.71%, #30D941 -3.71%, #0E3E13 100.67%);
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Orbit', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        display: inline-grid;
+        width: 40vw;
+        height: 85vh;
+        justify-items: center;
+        background-color: #249B46;
+        
+        border-radius: 45px;
+    }
+    main h1{
+        display: flex;
+        color: white;
+        font-size: 40pt;
+        margin: 0;
+    }
+    #imagem {
+        display:flex;
+        width: 250px;
+    }
+    
+    #link1{
+        display: flex;
+        color: #1C9228;
+        text-decoration: none;
+        border: 2px solid #92E3A9;
+        background-color: #92E3A9;
+        padding: 8px 30px;
+        border-radius: 20px;
+        font-weight: 600;
+    }
+    article{
+        padding: 10px;
+    }
+    #link2{
+        display:flex;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #link1:hover{
+        background-color: transparent;
+        color: #92E3A9;
+    }
+    #link2:hover{
+        text-decoration: underline;
+        color: #92E3A9;
+    } 
+}
+
+
+/* ------ RESPONSIVIDADE ATÉ 650PX ------ */
+@media only screen and (max-width:650px){
+    body{
+    
+        margin: 0;
+        background: linear-gradient(162.52deg, #5CC866 -3.71%, #30D941 -3.71%, #0E3E13 100.67%);
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Orbit', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        display: inline-grid;
+        width: 80vw;
+        height: 80vh;
+        justify-items: center;
+        background-color: #249B46;
+        border-radius: 45px;
+    }
+    main h1{
+        display: flex;
+        color: white;
+        font-size: 40pt;
+        margin: 0;
+    }
+    #imagem {
+        display:flex;
+        width: 300px;
+    }
+    
+    #link1{
+        display: flex;
+        color: #1C9228;
+        text-decoration: none;
+        border: 2px solid #92E3A9;
+        background-color: #92E3A9;
+        padding: 8px 30px;
+        border-radius: 20px;
+        font-weight: 600;
+    }
+    article{
+        padding: 10px;
+    }
+    #link2{
+        display:flex;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #link1:hover{
+        background-color: transparent;
+        color: #92E3A9;
+    }
+    #link2:hover{
+        text-decoration: underline;
+        color: #92E3A9;
+    } 
+}
+
+
+/* ------ RESPONSIVIDADE ATÉ 380PX ------ */
+@media only screen and (max-width:380px){
+    body{
+    
+        margin: 0;
+        background: linear-gradient(162.52deg, #5CC866 -3.71%, #30D941 -3.71%, #0E3E13 100.67%);
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Orbit', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        display: inline-grid;
+        width: 80vw;
+        height: 80vh;
+        justify-items: center;
+        background-color: #249B46;
+        border-radius: 45px;
+    }
+    main h1{
+        display: flex;
+        color: white;
+        font-size: 40pt;
+        margin: 0;
+    }
+    #imagem {
+        display:flex;
+        width: 200px;
+    }
+    
+    #link1{
+        display: flex;
+        color: #1C9228;
+        text-decoration: none;
+        border: 2px solid #92E3A9;
+        background-color: #92E3A9;
+        padding: 8px 30px;
+        border-radius: 20px;
+        font-weight: 600;
+    }
+    article{
+        padding: 10px;
+    }
+    #link2{
+        display:flex;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #link1:hover{
+        background-color: transparent;
+        color: #92E3A9;
+    }
+    #link2:hover{
+        text-decoration: underline;
+        color: #92E3A9;
+    } 
+}
+
+
+/* ------ RESPONSIVIDADE ATÉ 280PX ------ */
+@media only screen and (max-width:280px){
+    body{
+    
+        margin: 0;
+        background: linear-gradient(162.52deg, #5CC866 -3.71%, #30D941 -3.71%, #0E3E13 100.67%);
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Orbit', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        display: inline-grid;
+        width: 80vw;
+        height: 80vh;
+        justify-items: center;
+        background-color: #249B46;
+        border-radius: 45px;
+    }
+    main h1{
+        display: flex;
+        color: white;
+        font-size: 20pt;
+        margin: 0;
+    }
+    #imagem {
+        display:flex;
+        width: 100px;
+    }
+    
+    #link1{
+        display: flex;
+        color: #1C9228;
+        text-decoration: none;
+        border: 2px solid #92E3A9;
+        background-color: #92E3A9;
+        padding: 8px 10px;
+        border-radius: 20px;
+        font-weight: 200px;
+        font-size: 10px;
+    }
+    article{
+        padding: px;
+    }
+    #link2{
+        display:flex;
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    
+    #link1:hover{
+        background-color: transparent;
+        color: #92E3A9;
+    }
+    #link2:hover{
+        text-decoration: underline;
+        color: #92E3A9;
+    } 
+}
+
